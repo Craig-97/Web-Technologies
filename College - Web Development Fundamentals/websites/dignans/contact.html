@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dignans Catering</title>
+<link rel="stylesheet" href="styles.css">
+
+<!--[if lt IE 9]>
+<script src="html5shiv.js"></head>script>
+<![endif]-->
+</head>
+
+<body>
+<main>
+<header>
+<h1>Dignans Catering </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lunches.html">Lunches</a></li>
+        <li><a href="parties.html">Parties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+<h2>PARTY FOOD</h2>
+  <h3>Hot & Cold Finger Foods</h3>
+  <section>
+    <article>
+    <p>Dignans Outside Catering & Trolley Services</p>
+<p>1 Casserole Drive</p>
+<p>Edinburgh</p>
+<p>EH3 9LH</p>
+<p>Feel free to contact us for any information or to place an order. Contact us on:</p>
+<p>Tel: </p> 
+<p> 1122334455 </p>  
+<p>Email: </p>
+<p> info@dignans.co.uk </p>
+    </article>
+    
+    <form id="contact_form" action="processform.php" method="post">
+    <table>
+    <tr>
+    <td>Name</td>
+    <td><input type="text" name="name" placeholder="John Doe" required> </td>
+    </tr>
+    <tr>
+    <td>Email </td>
+    <td><input type="email" name="email" required> </td>
+    </tr>
+    <tr>
+    <td>Birthday </td>
+    <td><input type="date" name="birthday" > </td>
+    </tr>
+    <tr>
+    <td><label> Choose a browser from this list:
+    <input list="browsers" name="myBrowser" /> 
+    </label>
+     </td>
+    <td><datalist id="browsers">
+    <option value="chrome"> </option>
+    <option value="Firefox"> </option>
+    <option value ="Internet Explorer"> </option>
+    </datalist> </td>
+    </tr>
+    <tr>
+    <td> </td>
+    <td> <button type="submit" name="submit" > Submit Form</button></td>
+    </tr>
+    </table>
+    </form>
+    
+   
+  </section>
+  
+  <footer>
+  <p>2015 Dignans Catering. All rights reserved.</p>
+  <p>Phone: 0131 111 2222 | Email: Orders@digans.co.uk | Hill Street, Edinburgh, EH1 15R</p>
+  </footer>
+</main>
+</body>
+</html>

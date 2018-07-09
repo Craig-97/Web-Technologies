@@ -1,0 +1,66 @@
+body {
+	font: 1em Arial, Helvetica, sans-serif;
+}
+h1 {
+	font-size: 1.3em;
+}
+h2 {
+	font-size: 1.2em;
+}
+main, header, article, aside, footer {
+	border: solid 1px #ccc;
+}
+header, article, aside {
+	margin-bottom: 5px;
+}
+main {
+	padding: 1%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	padding-left: 1%;
+	height: 180px;
+}
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer {
+	padding-left: 1%;
+}
+.left {
+	padding-left: 1%;
+	background: #f8f8f8;
+	width: 60%;
+}
+.right {
+	padding-left: 1%;
+	background: #f0efef;
+	width: 30%
+}
+
+@media screen and (max-width: 500px) {
+header {
+	height: 100px;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+h2 {
+	font-size: 1em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.left, .right {
+	width: auto;
+}	
+}
