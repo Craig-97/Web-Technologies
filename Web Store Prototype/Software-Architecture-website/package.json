@@ -1,0 +1,22 @@
+{
+  "name": "DEStore-SA",
+  "version": "1.0.0",
+  "author": "Craig Baxter",
+  "copyright": "Craig Baxter",
+  "private": true,
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "async": "^2.5.0",
+    "body-parser": "^1.18.2",
+    "compression": "latest",
+    "express": "^4.16.2",
+    "moment": "^2.10.6",
+    "mongoose": "^4.2.3",
+    "mongoose-simple-random": "^0.3.3",
+    "sendgrid": "^1.9.2",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
