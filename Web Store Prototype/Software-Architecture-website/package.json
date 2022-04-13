@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "@sendgrid/mail": "^6.1.4",
-    "async": "^2.5.0",
+    "async": "^3.2.2",
     "body-parser": "^1.18.2",
     "compression": "latest",
     "express": "^4.16.2",
