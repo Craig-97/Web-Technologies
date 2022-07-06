@@ -10,7 +10,7 @@
     "body-parser": "^1.18.2",
     "compression": "latest",
     "express": "^4.16.2",
-    "moment": "^2.10.6",
+    "moment": "^2.29.4",
     "mongoose": "^5.7.5",
     "mongoose-simple-random": "^0.3.3",
     "sendgrid": "^1.9.2",
