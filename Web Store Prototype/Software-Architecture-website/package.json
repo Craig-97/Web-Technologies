@@ -9,7 +9,7 @@
     "async": "^2.5.0",
     "body-parser": "^1.18.2",
     "compression": "latest",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "moment": "^2.10.6",
     "mongoose": "^5.7.5",
     "mongoose-simple-random": "^0.3.3",
